@@ -71,10 +71,10 @@ if __name__ == '__main__':
 
     # Calculating the least dist using simple hill climbing
     start_time = timeit.default_timer()
-    # Least_distance, Best_seq = hill_climb_simple(random_start_seq,
-    #                                              coordinates)
+    least_distance, best_seq = hill_climb_simple(random_start_seq,
+                                                 coordinates)
     end_time = timeit.default_timer()
 
-    print("Best Sequence:", Best_seq)
-    print("Least distance from Simple hill climbing:", Least_distance)
-    print(f'Time: {end_time - start_time}s')
+    print("Best Sequence:", best_seq)
+    print("Least distance from Simple hill climbing:", least_distance)
+    print("Time: {}".format(end_time - start_time))

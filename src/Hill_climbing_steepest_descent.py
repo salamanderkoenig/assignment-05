@@ -69,10 +69,10 @@ if __name__ == '__main__':
 
     # Calculating the least dist using steepest descent hill climbing
     start_time = timeit.default_timer()
-    # Least_distance, Best_seq = hill_climb_steepest_descent(random_seq,
-    #                                                        coordinates)
+    least_distance, best_seq = hill_climb_steepest_descent(random_seq,
+                                                           coordinates)
     end_time = timeit.default_timer()
 
-    print("Best Sequence:", Best_seq)
-    print("Least distance from Steepest Ascent:", Least_distance)
-    print(f'Time: {end_time-start_time}s')
+    print("Best Sequence:", best_seq)
+    print("Least distance from Steepest Ascent:", least_distance)
+    print("Time: {}s".format(end_time-start_time))
