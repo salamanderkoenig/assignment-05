@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/hbrs-ai/assignment-05.svg?branch=master)](https://travis-ci.com/hbrs-ai/assignment-05)
 
 # <YOUR_FIRST_NAME><YOUR_LAST_NAME>
 
