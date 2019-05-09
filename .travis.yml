@@ -1,0 +1,14 @@
+dist: xenial
+language: python
+python:
+  - "3.5"
+  - "3.6"
+  - "3.7"
+install:
+  - pip install -r requirements.txt
+script:
+  - python src/Hill_climbing_steepest_descent.py --filename src/data/49_cities.txt
+  - python src/Hill_climbing_steepest_descent.py --filename src/data/cities_full.txt
+  - python src/Hill_climbing_simple.py --filename src/data/49_cities.txt
+  - python src/Hill_climbing_simple.py --filename src/data/cities_full.txt
+  
